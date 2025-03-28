@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ROS2 Web Interface</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="flex">
+      <h2>Robot Interface</h2>
+    </div>
+    <div class="flex">
+      <h3 id="timerEl">00:00:00</h3>
+    </div>
+    <div class='flex'>
+      <button id="startBtn">Start</button>
+    </div>
+
+    <div class="robotBox">
+      <div class="robot" id="robotEl"></div>
+    </div>
+  </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/roslibjs/1.1.0/roslib.min.js" integrity="sha512-x2Owc9WayRcRj80Znkau58shVfXN2OIX+gQAlrx6KPugZBKrIC6AwgEWQQCI06p2Q8RB4ilxD+y+1BdNd+1fQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="index.js"></script>
+</html>
+
